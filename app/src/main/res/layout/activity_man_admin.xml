@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManAdmin">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#C0A0D9"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnThemTruyen"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombtn"
+        android:layout_marginTop="20dp"
+        android:text="Thêm truyện" />
+
+    <ListView
+        android:id="@+id/lvThemTruyen"
+        android:layout_margin="10dp"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
